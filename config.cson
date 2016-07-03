@@ -1,0 +1,78 @@
+"*":
+  Zen:
+    minimap: true
+    typewriter: true
+  "activate-power-mode":
+    particles:
+      size: {}
+      spawnCount: {}
+      totalCount:
+        max: 2000
+    screenShake:
+      maxIntensity: 20
+      minIntensity: 4
+  "autocomplete-bibtex":
+    bibtex: [
+      "/Users/websterm/school/cmsc499a/papers/library.bib"
+    ]
+    scope: "source.gfm"
+  "autocomplete-plus":
+    fileBlacklist: [
+      "*.md"
+      "*.txt"
+    ]
+  autosave:
+    enabled: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "markdown-preview"
+      "language-markdown"
+      "language-gfm"
+      "autocomplete-bibtex"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    invisibles: {}
+    scrollPastEnd: true
+    softWrap: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "b74e3dce-14f2-3cfd-6879-0ac59b641fee"
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    enablePandoc: true
+    pandocArguments: [
+      "--filter=/usr/local/bin/pandoc-citeproc"
+    ]
+    pandocBIBFileFallback: "/Users/websterm/school/cmsc499a/papers/library.bib"
+    pandocBibliography: true
+    pandocPath: "/usr/local/bin/pandoc"
+    pandocRemoveReferences: false
+    useGitHubStyle: true
+  "markdown-themeable-pdf":
+    enableCustomFooter: false
+    enableCustomHeader: false
+    exportFileType: "html"
+    openPdfInAtomWorkspace: false
+  minimap:
+    displayMinimapOnLeft: true
+  "split-diff":
+    syncHorizontalScroll: true
+  typewriter: {}
+  "vim-mode":
+    startInInsertMode: true
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    tabLength: 4
+".gfm.source":
+  editor:
+    tabLength: 4
+"source.gfm":
+  editor:
+    softWrap: true
